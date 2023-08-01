@@ -8,7 +8,7 @@ struct node{
 	struct node *next;
 	
 };
-//listenin başına ekleme
+//listenin baÃ¾Ã½na ekleme
 struct node *addfront(struct node *head,int x){
 	
 	struct node *temp=(struct node *)malloc(sizeof(struct node));
@@ -43,7 +43,7 @@ struct node *addlast(struct node *head,int x){
 }
 
 
-//belirli bir döğüm silme 
+//belirli bir dÃ¶Ã°Ã¼m silme 
 struct node *delete(struct node *head, int key){
 	if(head!=NULL){
 		struct node *temp=head;
@@ -65,7 +65,7 @@ struct node *delete(struct node *head, int key){
 	return head;
 }
 
-//liste elemanlarını listeleme
+//liste elemanlarÃ½nÃ½ listeleme
 void print(struct node *head){
 	
 	if(head==NULL){
